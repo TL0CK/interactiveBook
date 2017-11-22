@@ -20,80 +20,66 @@ body {
   left: 0;
   transition: .25s;
   pointer-events: none;
+  background: url('../img/default.png');
+  background-size: cover;
+  -webkit-transition: background 1s ease-out;
+  -moz-transition: background 1s ease-out;
+  -o-transition: background 1s ease-out;
+  transition: background 1s ease-out;
 }
 
-li
-{
-  list-style:none;
+
+.menu a {
+  display:block;
+  width:20%;
+  text-align:center;
+  font-family: 'HeydingsCommonIconsRegular', Helvetida Neue, sans-serif;
+  font-weight:700;
+  letter-spacing:1px;
+  font-size:20px;
+  color:#fff;
+  background:#ccc;
+  text-decoration:none;
+  text-transform:uppercase;
+  text-shadow:2px 2px 0 rgba(0,0,0,.25);
+  transition:.25s;
 }
 
-li a
-    { display:block;
-      float:left;
-      width:20%;
-      padding:25px 0;
-      text-align:center;
-      font-family: 'HeydingsCommonIconsRegular', Helvetida Neue, sans-serif;
-      font-weight:700;
-      letter-spacing:1px;
-      font-size:40px;
-      color:#fff;
-      background:#ccc;
-      text-decoration:none;
-      text-transform:uppercase;
-      text-shadow:2px 2px 0 rgba(0,0,0,.25);
-      transition:.25s;}
+.menu a:nth-child(1) {  background:#ffca6d !important;}
+.menu a:nth-child(2) {  background:#ff6d6d !important;}
+.menu a:nth-child(3) {  background:#6dffb9 !important;}
+.menu a:nth-child(4) {  background:#6dcaff !important;}
+.menu a:nth-child(5) {  background:#ec6dff !important;}
 
-li a:hover  {
-      margin:-10px 0 0 0;
-}
-
-.menu li:first-child a {  background:#ffca6d !important;}
-.menu li:nth-child(2) a {  background:#ff6d6d !important;}
-.menu li:nth-child(3) a {  background:#6dffb9 !important;}
-.menu li:nth-child(4) a {  background:#6dcaff !important;}
-.menu li:nth-child(5) a {  background:#ec6dff !important;}
-
-.menu li:first-child:hover ~ .bg {
+.menu a:nth-child(1):hover ~ .bg {
   background: url('../img/scaryBackground.png');
+  background-size: cover;
 }
-.menu li:nth-child(2):hover ~ .bg {
+.menu a:nth-child(2):hover ~ .bg {
   background: url('../img/scifiBackground.png');
+  background-size: cover;
 }
-.menu li:nth-child(3):hover ~ .bg {
+.menu a:nth-child(3):hover ~ .bg {
   background: url('../img/kidsBackground.png');
+  background-size: cover;
 }
-.menu li:nth-child(4):hover ~ .bg {
+.menu a:nth-child(4):hover ~ .bg {
   background: url('../img/adventureBackground.png');
+  background-size: cover;
 }
-.menu li:nth-child(5):hover ~ .bg {
+.menu a:nth-child(5):hover ~ .bg {
   background: url('../img/eroticBackground.png');
+  background-size: cover;
 }
 
-.menu li:nth-child(1):hover ~ .bg,
-.menu li:nth-child(2):hover ~ .bg,
-.menu li:nth-child(3):hover ~ .bg,
-.menu li:nth-child(4):hover ~ .bg,
-.menu li:nth-child(5):hover ~ .bg
+.menu a:nth-child(1):hover ~ .bg,
+.menu a:nth-child(2):hover ~ .bg,
+.menu a:nth-child(3):hover ~ .bg,
+.menu a:nth-child(4):hover ~ .bg,
+.menu a:nth-child(5):hover ~ .bg
   {
     -webkit-transition: background 0.5s ease-out;
     -moz-transition: background 0.5s ease-out;
     -o-transition: background 0.5s ease-out;
     transition: background 0.5s ease-out;
   }
-
-
-@font-face {
-    font-family:'HeydingsCommonIconsRegular';
-    src: url('http://ianfarb.com/random/heydings_icons-webfont.eot');
-    src: url('http://ianfarb.com/random/heydings_icons-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://ianfarb.com/random/heydings_icons-webfont.woff') format('woff'),
-         url('http://ianfarb.com/random/heydings_icons-webfont.ttf') format('truetype'),
-         url('http://ianfarb.com/random/heydings_icons-webfont.svg#HeydingsCommonIconsRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-* {    margin: 0;
-  padding: 0;}
