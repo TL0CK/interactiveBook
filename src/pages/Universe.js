@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 
-import Button from '../components/configstoryButton.js'
+import UniverseButton from '../components/universeButton.js'
 
-class App extends Component {
+class Universe extends Component {
   render() {
     return (
       <div className="App">
         <div id="bg"></div>
-        <Button/>
+        <UniverseButton/>
       </div>
     );
   }
 }
 
-export default App;
+export default Universe;
