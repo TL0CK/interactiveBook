@@ -8,6 +8,7 @@ class Universe extends Component {
     return (
       <div className="App">
         <div id="bg"></div>
+        <h1 id="universeTitle">Choisissez le genre de votre histoire</h1>
         <UniverseButton/>
       </div>
     );

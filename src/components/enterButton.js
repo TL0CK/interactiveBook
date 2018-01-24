@@ -7,7 +7,7 @@ class EnterButton extends Component {
   render() {
     return (
       <div>
-        <a href="/universe" class="waves-effect waves-light btn">Commencer</a>
+        <a id="enterButton" href="/universe" class="waves-effect waves-light btn">Commencer</a>
       </div>
     );
   }

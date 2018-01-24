@@ -10,6 +10,8 @@ class StoryLength extends Component {
   render() {
     return (
       <div className="App">
+        <div id="bg"></div>
+        <h1 id="lengthTitle">Choisissez la durée de votre histoire</h1>
         <LengthButton/>
       </div>
     );

@@ -7,7 +7,8 @@ class Story extends Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
+        <div id="bg"></div>
       </div>
     );
   }

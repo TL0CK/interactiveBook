@@ -7,8 +7,9 @@ class HomePage extends Component {
   render() {
     return (
       <div className="App">
-        <h1>NomBienBadass</h1>
+        <h1 id="homeTitle">Interactive Book</h1>
         <EnterButton/>
+        <div class="bg"></div>
       </div>
     );
   }

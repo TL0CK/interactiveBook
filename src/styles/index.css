@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color:white;
   background:#e5e5e5;
 }
 
@@ -20,7 +21,7 @@ body {
   left: 0;
   transition: .25s;
   pointer-events: none;
-  background: url('../img/default.png');
+  background: url('../img/default.jpg');
   background-size: cover;
   -webkit-transition: background 0.2s ease-out;
   -moz-transition: background 0.2s ease-out;
@@ -36,7 +37,7 @@ body {
   font-family: 'HeydingsCommonIconsRegular', Helvetida Neue, sans-serif;
   font-weight:700;
   letter-spacing:1px;
-  font-size:20px;
+  font-size:25px;
   color:#fff;
   background:#ccc;
   text-decoration:none;
